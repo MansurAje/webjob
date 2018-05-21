@@ -1,0 +1,1 @@
+1. jangan lupa tambahkan symbolic link checkip.sh pada server live
