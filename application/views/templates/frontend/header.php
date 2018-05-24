@@ -6,9 +6,9 @@
        //////////////////////////////////////////////////////////-->
 
 
-        <div class="w-col w-col-32 logo">
-          
+        <div class="w-col w-col-32 logo">          
           <a href="<?php echo base_url()?>"><img src="<?php echo base_url()?>assets/images/logo_bumn.png"  alt="bumn Logo" class="logobumn" ></a>
+          <a href="<?php echo base_url()?>"><img src="<?php echo base_url()?>assets/images/logo_bumn_wika.png"  alt="wika Logo" class="logowikamobile" ></a>
         </div>
 
         <!--///////////////////////////////////////////////////////
@@ -26,20 +26,29 @@
             <div class="w-container nav">
               <nav class="w-nav-menu nav-menu" role="navigation">
 
-                <a class="w-nav-link menu-li" href="<?php echo base_url();?>Beranda">Beranda</a>
+                <a class="w-nav-link menu-li" id="menuHome" href="<?php echo base_url();?>Beranda">Beranda</a>                
+                <a class="w-nav-link menu-li" id="menuHasil" href="<?php echo base_url();?>Pengumuman">Pengumuman</a>
+                <a class="w-nav-link menu-li" id="menuLoker" href="<?php echo base_url();?>Lowongan">Lowongan</a>
+                <a class="w-nav-link menu-li" id="menuAbout" href="<?php echo base_url();?>About">About</a>
+                <a class="w-nav-link menu-li" id="menuFaq" href="<?php echo base_url();?>About">FAQ</a>
+                <a class="w-nav-link menu-li dropbutton" id="menuLogin" href="#login">MyProfile</a>
                 
-                <a class="w-nav-link menu-li" href="#informasi">Pengumuman</a>
-                <a class="w-nav-link menu-li" href="#jadwal">Lowongan</a>
-                <a class="w-nav-link menu-li" href="<?php echo base_url();?>About">Tentang Kami</a>
-                <a class="w-nav-link menu-li" href="<?php echo base_url();?>About">FAQ</a>
-                <a class="w-nav-link menu-li" href="#login">Login</a>
                 <a href="<?php echo base_url()?>"><img src="<?php echo base_url()?>assets/images/wika_transparant.png"  alt="wika Logo" class="logowika" ></a>
               </nav>
               <div class="w-nav-button">
                 <div class="w-icon-nav-menu"></div>
               </div>
+              <div class="divProfilemobile" style="float: right">
+                <a class="w-nav-link menu-li dropbutton" id="menuLogin" href="#login"><i class="fa fa-user-circle" style="color: #000;"> </i></a>
+              </div>
+              
             </div>
           </div>
+          <div class="dropdown-content">
+	        	<a href="#" class="">Resume</a>
+	        	<a href="#">Status Lamaran</a>
+	        	<a href="#">Logout</a>
+	        </div>
 
 
           <!--///////////////////////////////////////////////////////
@@ -50,6 +59,13 @@
         </div>
       </div>
     </div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".dropbutton").click(function(){
+        $(".dropdown-content").slideToggle();
+    });
+});
+</script>
 
     

@@ -1,0 +1,105 @@
+@media screen and (max-width: 960px)  {
+	.w-nav-link {
+		padding: 10px;
+	}
+	.nav {
+	}
+	.logowika {
+		display: none;
+	}
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #f1f1f1;
+	    min-width: 160px;
+	    z-index: 1; right: 5px; margin-top: 30px;
+	}
+	.divProfilemobile {
+		position: absolute;right: 50px;margin-top: 10px;  display: block;
+	}
+	.logowikamobile {
+		display: block;
+		max-width: none;
+		margin-top: -86px;
+		position: absolute;
+		margin-left: 0;
+	}
+	.w-nav-overlay {
+		width: 50%; right: 0;
+	}
+	.wrap{
+		padding: 0;
+	}
+	.box_loker {
+		border: 0px solid #bfd6df; float: left; margin-bottom: 5px; background-color: #ffffff; 
+		padding: 0px; width: 95%; height: auto; 
+	}
+	.box_loker_detail {
+		border: 0px solid #bfd6df; float: left; margin-bottom: 0; background-color: #ffffff; 
+		padding: 0px; width: 95%; height: auto; margin: 5px 10px 25px 10px;	 color: #626262;
+		box-shadow: 6px 5px #626262;
+	}
+	.kotak_art {
+		float: left; width: 100%
+	}
+	.div_loker {
+		padding: 15px;
+	}
+	.div_loker_detail {
+		padding: 35px;
+	}
+	.ZommNews {
+	overflow:hidden;
+	height:auto;
+	}
+	.experinc-box-h3{
+		margin: 5px; font-size: 31px; padding-bottom: 5px;
+	}
+	.demo-112 {
+		padding: 20px;
+	}
+	.w-col-6{
+		width: 50%; float: left;
+	}
+	.contact-col {
+		margin: 0;
+	}
+	.hi-icon {
+		
+	}
+}
+
+@media screen and (max-width: 600px)  {
+	.w-nav-link {
+		padding: 10px;
+	}
+	.nav {
+	    margin-top: -87px;
+	    margin-right: 0;
+	}
+	.logowika {
+		display: none;
+	}
+	.divProfilemobile {
+		position: absolute;right: 50px;margin-top: 10px;  display: block;
+	}
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #f1f1f1;
+	    min-width: 160px;
+	    z-index: 1; right: 5px; margin-top: 0px;
+	}
+	.hedtop {
+	    margin-bottom: 1px;
+	}
+	.logobumn {
+		
+	}
+	.logowikamobile {
+		display: block;
+		margin-top: -86px;
+		position: absolute;
+		margin-left: 0;
+	}
+}

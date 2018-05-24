@@ -5,12 +5,12 @@
           		<img class="footer-logo" src="<?php echo base_url()?>assets/images/wika_transparant.png" width="" height="70">
           
 		          <div class="footer-social">
-		            <div class="fotter-social-wrap" align="center">
+		            <div class="fotter-social-wrap" align="center" style="font-size: 15px;">
 		            	
-		              	<a href="https://www.facebook.com/ptwika/"><img class="fotter-social" src="<?php echo base_url()?>assets/images/facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>
-		              	<a href="https://twitter.com/PTWijayaKarya"><img class="fotter-social" src="<?php echo base_url()?>assets/images/twitter.png" alt="52dd24f2929b601f54000551_Twitter.png"></a>
-		              	<a href="https://www.instagram.com/ptwijayakarya/"><img class="fotter-social" src="<?php echo base_url()?>assets/images/instagram.png" alt="52dd26a55b54031d540005af_instagram.jpg"></a>
-					 	<a href="https://www.youtube.com/channel/UCUF609VvNhSKbuJxSXGfKYQ"><img class="fotter-social" src="<?php echo base_url()?>assets/images/youtube.png" alt="52de54495d3566c14300040a_Youtube.png"></a>
+		              	<a href="https://www.facebook.com/ptwika/"><i class="fa fa-facebook" style="font-size: 23px; color: #ffffff;"></i> </a> &nbsp;&nbsp;
+		              	<a href="https://twitter.com/PTWijayaKarya"><i class="fa fa-twitter"  style="font-size: 23px; color: #ffffff;"></i> </a> &nbsp;&nbsp;
+		              	<a href="https://www.instagram.com/ptwijayakarya/"><i class="fa fa-instagram"  style="font-size: 23px; color: #ffffff;"></i>  </a> &nbsp;&nbsp;
+					 	<a href="https://www.youtube.com/channel/UCUF609VvNhSKbuJxSXGfKYQ"><i class="fa fa-youtube"  style="font-size: 23px; color: #ffffff;"></i>  </a> &nbsp;&nbsp;
 		            </div>
 		          </div>
           
