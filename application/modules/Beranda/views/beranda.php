@@ -73,8 +73,12 @@
       	<div class="w-container">
 	        <div id="who-v-animation">
 		        <div class="wrap" >
-		          	<iframe width="100%" height="515" src="https://www.youtube.com/embed/C-7pcRu2hzE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-		      	</div>
+		        	<video controls="" width="100%">
+					  <source type="video/mp4" src="<?php echo base_url()?>assets/video/wika_video.mp4">
+					  <source type="video/ogg" src="<?php echo base_url()?>assets/video/wika_video.ogg">
+					  Your browser does not support HTML5 video.
+					</video>
+		        </div>
 	      	</div>
     	</div>
   	</div>

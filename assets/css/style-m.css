@@ -30,6 +30,10 @@
 	.wrap{
 		padding: 0;
 	}
+	.box_list50 {
+		border: 0px solid #bfd6df; float: left; margin-bottom: 0; background-color: #ffffff; 
+		padding: 0px; width: 95%; height: auto; margin: 5px 10px 25px 10px;	 color: #626262; box-shadow: 6px 5px #626262;
+	}
 	.box_loker {
 		border: 0px solid #bfd6df; float: left; margin-bottom: 5px; background-color: #ffffff; 
 		padding: 0px; width: 95%; height: auto; 
